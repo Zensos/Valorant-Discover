@@ -5,5 +5,5 @@ const buildURL = (baseUrl, resource) => {
     return resource
 }
 
-export const api = (url) => buildURL("https://vlrggapi.vercel.app", url)
-export const api2 = (url) => buildURL("https://vlrgg.cyclic.app/api", url)
+export const api = (uri) => buildURL("https://vlrggapi.vercel.app", uri)
+export const api2 = (uri) => buildURL("https://vlrgg.cyclic.app/api", uri)
